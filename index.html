@@ -7,6 +7,7 @@
     <title>Hexal</title>
     <link rel="stylesheet" href="css/normalize.css">
     <link href="https://fonts.googleapis.com/css?family=Lato:400,900|Maven+Pro&display=swap" rel="stylesheet">
+    <link rel="stylesheet" type="text/css" href="//cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.css">
     <link rel="stylesheet" href="css/style.css">
 </head>
 <body>
@@ -16,13 +17,120 @@
         <nav class="header__nav nav">
             <a class="nav__link nav__link_active" href="#">PORTFOLIO</a>
             <span class="nav__dot">·</span>
-            <a class="nav__link" href="#">ABOUT</a>
+            <a class="nav__link nav__link_padding-right" href="#">ABOUT</a>
             <div class="header__logo"></div>
-            <a class="nav__link" href="#">BLOG</a>
+            <a class="nav__link nav__link_padding-left" href="#">BLOG</a>
             <span class="nav__dot">·</span>
             <a class="nav__link" href="#">GET IN TOUCH</a>
         </nav>
+
+        <div class="header__burger burger">
+            <button class="burger__button-open-burger button-open-burger">
+                <div class="button-open-burger__line button-open-burger__line_1"></div>
+                <div class="button-open-burger__line button-open-burger__line_2"></div>
+                <div class="button-open-burger__line button-open-burger__line_3"></div>
+            </button>
+
+            <div class="burger__container">
+                <div class="burger__link-container">
+                    <a class="burger__link burger__link_active" href="#">PORTFOLIO</a>
+                    <a class="burger__link" href="#">ABOUT</a>
+                    <a class="burger__link" href="#">BLOG</a>
+                    <a class="burger__link" href="#">GET IN TOUCH</a>
+                </div>
+
+                <div class="burger__open-bg"></div>
+            </div>
+        </div>
     </header>
     <!-- end header -->
+
+    <!-- start main -->
+    <main class="main">
+        <div class="main__container">
+            <div class="slider">
+                <div class="slide">
+                    <div class="slide__row">
+                            <div class="slide__line"></div>
+                            <div class="slide__img" style="background-image: url('img/slider/slide-1.jpg')"></div>
+                            <div class="slide__img" style="background-image: url('img/slider/slide-2.jpg')"></div>
+                            <div class="slide__img" style="background-image: url('img/slider/slide-3.jpg')"></div>
+                            <div class="slide__img" style="background-image: url('img/slider/slide-4.jpg')"></div>
+                            <div class="slide__line"></div>
+                    </div>
+                    <div class="slide__row">
+                            <div class="slide__img slide__img_margin-left" style="background-image: url('img/slider/slide-5.jpg')"></div>
+                            <div class="slide__img" style="background-image: url('img/slider/slide-6.jpg')"></div>
+                            <div class="slide__img" style="background-image: url('img/slider/slide-7.jpg')"></div>
+                            <div class="slide__img" style="background-image: url('img/slider/slide-8.jpg')"></div>
+                            <div class="slide__img slide__img_margin-right" style="background-image: url('img/slider/slide-9.jpg')"></div>
+                    </div>
+                    <div class="slide__row">
+                            <div class="slide__line"></div>
+                            <div class="slide__img" style="background-image: url('img/slider/slide-10.jpg')"></div>
+                            <div class="slide__img" style="background-image: url('img/slider/slide-11.jpg')"></div>
+                            <div class="slide__img" style="background-image: url('img/slider/slide-12.jpg')"></div>
+                            <div class="slide__img" style="background-image: url('img/slider/slide-13.jpg')"></div>
+                            <div class="slide__line"></div>
+                    </div>
+                </div>
+                <div class="slide">
+                    <div class="slide__row">
+                            <div class="slide__line"></div>
+                            <div class="slide__img" style="background-image: url('img/slider/slide-1.jpg')"></div>
+                            <div class="slide__img" style="background-image: url('img/slider/slide-2.jpg')"></div>
+                            <div class="slide__img" style="background-image: url('img/slider/slide-3.jpg')"></div>
+                            <div class="slide__img" style="background-image: url('img/slider/slide-4.jpg')"></div>
+                            <div class="slide__line"></div>
+                    </div>
+                    <div class="slide__row">
+                            <div class="slide__img slide__img_margin-left" style="background-image: url('img/slider/slide-5.jpg')"></div>
+                            <div class="slide__img" style="background-image: url('img/slider/slide-6.jpg')"></div>
+                            <div class="slide__img" style="background-image: url('img/slider/slide-7.jpg')"></div>
+                            <div class="slide__img" style="background-image: url('img/slider/slide-8.jpg')"></div>
+                            <div class="slide__img slide__img_margin-right" style="background-image: url('img/slider/slide-9.jpg')"></div>
+                    </div>
+                    <div class="slide__row">
+                            <div class="slide__line"></div>
+                            <div class="slide__img" style="background-image: url('img/slider/slide-10.jpg')"></div>
+                            <div class="slide__img" style="background-image: url('img/slider/slide-11.jpg')"></div>
+                            <div class="slide__img" style="background-image: url('img/slider/slide-12.jpg')"></div>
+                            <div class="slide__img" style="background-image: url('img/slider/slide-13.jpg')"></div>
+                            <div class="slide__line"></div>
+                    </div>
+                </div>
+                <div class="slide">
+                    <div class="slide__row">
+                            <div class="slide__line"></div>
+                            <div class="slide__img" style="background-image: url('img/slider/slide-1.jpg')"></div>
+                            <div class="slide__img" style="background-image: url('img/slider/slide-2.jpg')"></div>
+                            <div class="slide__img" style="background-image: url('img/slider/slide-3.jpg')"></div>
+                            <div class="slide__img" style="background-image: url('img/slider/slide-4.jpg')"></div>
+                            <div class="slide__line"></div>
+                    </div>
+                    <div class="slide__row">
+                            <div class="slide__img slide__img_margin-left" style="background-image: url('img/slider/slide-5.jpg')"></div>
+                            <div class="slide__img" style="background-image: url('img/slider/slide-6.jpg')"></div>
+                            <div class="slide__img" style="background-image: url('img/slider/slide-7.jpg')"></div>
+                            <div class="slide__img" style="background-image: url('img/slider/slide-8.jpg')"></div>
+                            <div class="slide__img slide__img_margin-right" style="background-image: url('img/slider/slide-9.jpg')"></div>
+                    </div>
+                    <div class="slide__row">
+                            <div class="slide__line"></div>
+                            <div class="slide__img" style="background-image: url('img/slider/slide-10.jpg')"></div>
+                            <div class="slide__img" style="background-image: url('img/slider/slide-11.jpg')"></div>
+                            <div class="slide__img" style="background-image: url('img/slider/slide-12.jpg')"></div>
+                            <div class="slide__img" style="background-image: url('img/slider/slide-13.jpg')"></div>
+                            <div class="slide__line"></div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </main>
+    <!-- end main -->
+
+    <script src="https://code.jquery.com/jquery-3.4.1.js" integrity="sha256-WpOohJOqMqqyKL9FccASB9O0KwACQJpFTUBLTYOVvVU=" crossorigin="anonymous"></script>
+    <script src="//cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.min.js"></script>                
+    <script src="js/script.js"></script>
 </body>
 </html>

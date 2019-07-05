@@ -187,7 +187,7 @@
     display: flex;
     justify-content: center;
     flex-wrap: wrap;
-    padding: 10px 0;
+    padding-top: 10px;
 }
 .main__container {
     max-width: 960px;
@@ -584,6 +584,27 @@
     }
 }
 /* end style main */
+
+/* start style footer */
+.footer {
+    background-color: #222222;
+    display: flex;
+    justify-content: center;
+}
+.footer__copyright-container {
+    max-width: 960px;
+    width: 100%;
+    box-sizing: border-box;
+    padding: 0 10px;
+}
+.footer__copyright-text {
+    color: #454545;
+    font-family: 'Maven-pro', sans-serif;
+    font-size: 12px;
+    font-weight: 400;
+    line-height: 43px;
+}
+/* end style footer */
 
 .show {
     display: block;

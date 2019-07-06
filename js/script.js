@@ -119,7 +119,9 @@ function sendRequest(url, data) {
         const feedbackFormCap = document.querySelector('.feedback__form-cap');
         feedbackFormCap.classList.add('show');
 
-        localStorage.setItem('formSubmission', 'true')
+        localStorage.setItem('formSubmission', 'true');
+
+        window.location.href = './success.html';
     })
     .catch(() => {
         alert('Server is not responding')

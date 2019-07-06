@@ -395,10 +395,34 @@
     margin: 0;
 }
 .feedback__form {
+    position: relative;
     width: 100%;
     padding-top: 20px;
     display: flex;
     flex-direction: column;
+}
+.feedback__form-cap {
+    display: none;
+    position: absolute;
+    top: 20px;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    height: auto;
+    background-color: #000000a1;
+}
+.form-cap__title {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 100%;
+    text-align: center;
+    margin: 0;
+    color: #e0e0e0;
+    font-family: 'Maven Pro', sans-serif;
+    font-size: 30px;
+    font-weight: 400;
 }
 .feedback__input {
     max-width: 580px;
@@ -414,6 +438,11 @@
     font-weight: 400;
     line-height: 38px;
     margin-bottom: 15px;
+}
+.feedback__input_err {
+    background-color: #622d2d;
+    color: #ffffff;
+    box-shadow: 0 0 16px 0px #8a0707;
 }
 .feedback__textarea {
     max-width: 580px;
@@ -605,6 +634,9 @@
     line-height: 43px;
 }
 /* end style footer */
+
+/* start style success */
+/* end style success */
 
 .show {
     display: block;

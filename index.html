@@ -256,12 +256,16 @@
                     <p class="feedback__help-text">In order to get in touch use the contact form below:</p>
 
                     <form class="feedback__form" action="">
-                        <input class="feedback__input" type="text" placeholder="Name (Required)">
-                        <input class="feedback__input" type="text" placeholder="Email (Required)">
-                        <input class="feedback__input" type="text" placeholder="Subject">
-                        <textarea class="feedback__textarea" placeholder="Write your message here..."></textarea>
+                        <input class="feedback__input" type="text" data-type="name" placeholder="Name (Required)">
+                        <input class="feedback__input" type="text" data-type="email" placeholder="Email (Required)">
+                        <input class="feedback__input" type="text" data-type="subject" placeholder="Subject">
+                        <textarea class="feedback__textarea" data-type="message" placeholder="Write your message here..."></textarea>
 
-                        <input class="feedback__button-send" type="button" value="send">
+                        <input class="feedback__button-send" type="submit" value="send">
+
+                        <div class="feedback__form-cap form-cap">
+                            <h3 class="form-cap__title">You have already submitted the form.</h3>
+                        </div>
                     </form>
                 </div>
                 <div class="feedback__column">

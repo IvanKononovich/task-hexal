@@ -23,9 +23,7 @@ $('.slider').slick({
 const burgerButton = document.querySelector('.button-open-burger');
 const burgerOpenBg = document.querySelector('.burger__open-bg');
 
-function openBurger(event) {
-    
-
+function openBurger() {
     const burgerContainer = document.querySelector('.burger__container');
 
     burgerButton.classList.toggle('button-open-burger_open');
